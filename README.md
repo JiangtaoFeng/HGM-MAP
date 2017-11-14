@@ -20,7 +20,7 @@ We here give an implementation modified from the source code of word2vec (https:
 	- `-context`: file to store word embeddings used for generating context representations
 	- `-word`: file to store word embedding used for computing word-context similarity
 	- `-weight`: file to store weight and bias in context generation model  
-	- `-d`: dimensionality of word embeddings [default `300`]
+	- `-d`: dimensionality of word embeddings [DEFAULT `300`]
 	- `-alpha`: learning rate [default `0.025`]
 	- `-beta`: regularization rate [default `1e-3`]
 	- `-window`: window size [default `5`]
