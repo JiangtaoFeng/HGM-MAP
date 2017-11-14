@@ -21,13 +21,13 @@ Instruction:
 	- `-context`: file to store word embeddings used for generating context representations
 	- `-word`: file to store word embedding used for computing word-context similarity
 	- `-weight`: file to store weight and bias in context generation model  
-	- `-d`: dimensionality of word embeddings [default 300]
-	- `-alpha`: learning rate [default 0.025]
-	- `-beta`: regularization rate [default 1e-3]
-	- `-window`: window size [default 5]
-	- `-sample`: subsampling rate [default 1e-5]
-	- `-negative`: number of negative samples [default 5]
-	- `-iter`: iteration times [default 3]
-	- `-threads`: thread number to run the code [default 8]
+	- `-d`: dimensionality of word embeddings [default `300`]
+	- `-alpha`: learning rate [default `0.025`]
+	- `-beta`: regularization rate [default `1e-3`]
+	- `-window`: window size [default `5`]
+	- `-sample`: subsampling rate [default `1e-5`]
+	- `-negative`: number of negative samples [default `5`]
+	- `-iter`: iteration times [default `3`]
+	- `-threads`: thread number to run the code [default `8`]
 
 We would thank the authors of word2vec and GloVe for sharing their source codes.
