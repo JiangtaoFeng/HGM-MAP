@@ -10,7 +10,7 @@ HGM-MAP was proposed to learn word and context representations simultaneously. P
 }
 ```
 
-We would thank the authors of word2vec and GloVe for sharing their source codes.
+We would thank the authors of word2vec[1] and GloVe[2] for sharing their source codes.
 
 ## Instructions
 We here give an implementation modified from the source code of word2vec (https://code.google.com/p/word2vec/).
@@ -30,5 +30,5 @@ We here give an implementation modified from the source code of word2vec (https:
 	- `-threads`: thread number to run the code [default `8`]
 
 ## References
-- Mikolov, T.; Chen, K.; Corrado, G.; and Dean, J. 2013. Efficient estimation of word representations in vector space. CoRR abs/1301.3781.
-- Pennington, J.; Socher, R.; and Manning, C. D. 2014. Glove: Global vectors for word representation. In Proceedings of the International Conference on Empirical Methods in Natural Language Processing (EMNLP’14), volume 14, 1532–1543.
+1. Mikolov, T.; Chen, K.; Corrado, G.; and Dean, J. 2013. Efficient estimation of word representations in vector space. CoRR abs/1301.3781.
+2. Pennington, J.; Socher, R.; and Manning, C. D. 2014. Glove: Global vectors for word representation. In Proceedings of the International Conference on Empirical Methods in Natural Language Processing (EMNLP’14), volume 14, 1532–1543.
