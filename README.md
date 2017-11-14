@@ -10,7 +10,7 @@ HGM-MAP was proposed to learn word and context representations simultaneously. P
 }
 ```
 
-We would thank the authors of word2vec[1] and GloVe[2] for sharing their source codes.
+We would thank the authors of word2vec [1] and GloVe [2] for sharing their source codes.
 
 ## Instructions
 We here give an implementation modified from the source code of word2vec (https://code.google.com/p/word2vec/).
