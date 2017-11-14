@@ -11,7 +11,7 @@ HGM-MAP was proposed to learn word and context representations simultaneously. P
 ```
 
 
-We here give an implementation modified from the source code of word2vec.
+We here give an implementation modified from the source code of word2vec (https://code.google.com/p/word2vec/).
 
 Instructions:
 1. Compile the source.code with `clang HGM.c HGM -lm -lpthread`
