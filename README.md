@@ -10,10 +10,10 @@ HGM-MAP was proposed to learn word and context representations simultaneously. P
 }
 ```
 
-
-We here give an implementation modified from the source code of word2vec (https://code.google.com/p/word2vec/).
+We would thank the authors of word2vec and GloVe for sharing their source codes.
 
 ## Instructions
+We here give an implementation modified from the source code of word2vec (https://code.google.com/p/word2vec/).
 1. Compile the source.code with `clang HGM.c HGM -lm -lpthread`
 2. Run `./HGM` with following arguments, e.g. `./HGM -train wikipedia.txt -context context.txt -word word.txt -weight weight.txt -d 300 -alpha 0.025 -beta 1e-3 -window 5 -sample 1e-5 -negative 5 -iter 3 -threads 8`:
 	- `-train`: unannotated textual corpus as training data
@@ -29,4 +29,4 @@ We here give an implementation modified from the source code of word2vec (https:
 	- `-iter`: iteration times [default `3`]
 	- `-threads`: thread number to run the code [default `8`]
 
-We would thank the authors of word2vec and GloVe for sharing their source codes.
+
