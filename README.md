@@ -1,6 +1,4 @@
-#HGM
-
-Hierarchical Gaussian Model with Maximum A Posteriori estimation (HGM-MAP) 
+# Hierarchical Gaussian Model with Maximum A Posteriori estimation (HGM-MAP) 
 ________________________________________________________________________________
 
 HGM-MAP was proposed to learn word and context representations simultaneously. Please cite the following paper (to appear) if you use our source code.
