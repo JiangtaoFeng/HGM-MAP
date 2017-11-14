@@ -18,9 +18,9 @@ We here give a implementation modified from the source code of word2vec.
 Instruction:
 1. Compile the source.code with "clang HGM.c HGM -lm -lpthread"
 2. Run "./HGM" with following arguments, e.g. "./HGM -train wikipedia.txt -context context.txt -word word.txt -weight weight.txt -d 300 -alpha 0.025 -beta 1e-3 -window 5 -sample 1e-5 -negative 5 -iter 3 -threads 8":
-	1) -train: unannotated textual corpus as training data
-	2) -context: file to store word embeddings used for generating context representations
-	3) -word: file to store word embedding used for computing word-context similarity
+	- -train: unannotated textual corpus as training data
+	- -context: file to store word embeddings used for generating context representations
+	- -word: file to store word embedding used for computing word-context similarity
 	4) -weight: file to store weight and bias in context generation model  
 	5) -d: dimensionality of word embeddings [default 300]
 	6) -alpha: learning rate [default 0.025]
