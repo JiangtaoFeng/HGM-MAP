@@ -2,11 +2,12 @@
 
 HGM-MAP was proposed to learn word and context representations simultaneously. Please cite the following paper (to appear in AAAI-18) if you use our source code.
 ```
-@inproceedings{aaai-feng:18,
+@paper{AAAI1816796,
 	author = {Jiangtao Feng and Xiaoqing Zheng},
 	title = {Geometric Relationship between Word and Context Representations},
-	booktitle = {AAAI Conference on Artificial Intelligence},
-	year = {2018}
+	conference = {AAAI Conference on Artificial Intelligence},
+	year = {2018},
+	url = {https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16796}
 }
 ```
 
